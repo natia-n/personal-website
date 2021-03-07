@@ -88,12 +88,17 @@ html, body{
 
 .container-fluid-header .title span{
     font-size: 20px;
+    color: #FFFFFF;
 }
 
 .container-fluid-header .title h1{
     font-family: "Roboto";
     font-size: 60px;
     margin: 5px 0;
+}
+
+.container-fluid-header .title-header{
+    text-align: left;
 }
 
 .container-fluid-header .title .title-btn-container{
@@ -371,7 +376,119 @@ html, body{
     background-color: rgb(160 211 52 / 100%);
 }
 
-/* FUTER */
+/* FOOTER */
+.footer-fluid-container .comment-buttom-container{    
+    background-color: #FAFAFF;
+}
+
+.footer-fluid-container .comment-buttom-container .container-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.footer-fluid-container .comment-buttom-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.footer-fluid-container .comment-buttom-container a{
+    padding: 20px 73px 19px 71px;
+}
+
+.footer-fluid-container .footer{
+    background-image: url(../images/Rectangle-115.png);
+    padding: 71px 0 48px 0;
+}
+
+.footer-fluid-container .footer .section-1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255 255 255 / 95%);
+    padding-bottom: 61px;
+}
+
+.footer-fluid-container .footer .section-1 h2{
+    font-family: "Aller";
+    font-size: 28px;
+    color: #A0D334;
+    margin-bottom: 23px;
+}
+
+.footer-fluid-container .footer .section-1 span{
+    color: #FFFFFF;
+}
+
+.footer-fluid-container .footer .section-1 .footer-input{
+   margin-top: 23px;
+}   
+
+.footer-fluid-container .footer .section-1 .footer-input div{
+    display: inline-block;
+    background-color: #A0D334;
+    position: relative;
+    left: -6px;
+}
+
+.footer-fluid-container .footer .section-1 .footer-input div img{
+    height: 29px;
+    padding: 11px 22px 12px 15px;
+}
+ 
+
+.footer-fluid-container .footer .section-1 input{
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 14px;
+    color: #AFAFAF;
+    padding: 16px 140px 15px 22px;
+}
+
+.footer-fluid-container .footer .section-1 h3{
+    font-size: 21px;    
+    margin-bottom: 28px;
+}
+
+.footer-fluid-container .footer .section-1 ul li a{
+    text-decoration: none; 
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-fluid-container .footer .section-1 .footer-images{
+    display: flex;
+    gap: 36px;
+}
+
+.footer-fluid-container .footer .section-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.footer-fluid-container .footer .section-2 .contact{
+    display: inline-block;  
+    vertical-align: middle; 
+}
+
+.footer-fluid-container .footer .section-2 .contact img{
+    width: 36px; 
+}
+
+
+.footer-fluid-container .footer .section-2 .contact span{
+    display: block;   
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    margin: 0 0 0 13px;
+}
+
+
 
 
 
