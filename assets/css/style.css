@@ -21,8 +21,8 @@ html, body{
 /*    */
 .container-fluid-header{
     background-image: url(../images/bachround-image-1.png);
-    height: 973px;  /* ??????????*/
-    background-size: cover;
+    min-height: 1070px;  /* 900*/
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -36,6 +36,7 @@ html, body{
 .container-fluid-header .container-title-nav{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 23px;
     position: relative;
     z-index: +1;
@@ -56,6 +57,7 @@ html, body{
 .container-fluid-header .container-title-nav .nav-container nav ul{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 45px;
 }
 
@@ -111,7 +113,8 @@ html, body{
 .my-services-container{
     margin-top: 33px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    flex-wrap: wrap;   
 }
 
 .my-services-container .my-services-1{
@@ -169,9 +172,10 @@ html, body{
 /* MY STORY */
 .container-fluid-my-story{
     background-image: url(../images/bachround-image-2.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
-    height: 946px; /* ??????????*/
+    min-height: 1070px; /* 875 */
 }
 
 .container-fluid-my-story>img{
@@ -182,7 +186,7 @@ html, body{
 .container-fluid-my-story .my-story{
     position: absolute;
     left: calc(50% - 106px);
-    top: calc(50% - 106px);
+    top: calc(50% - 88px);
     text-align: center;
 }
 
@@ -202,6 +206,7 @@ html, body{
 .container-fluid-my-skills .about-percent{   
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 61px;
     margin-bottom: 68px;
 }
@@ -222,16 +227,12 @@ html, body{
 
 /* MY PORTFOLIO */
 .container-fluid-portfolio{
+    background-image: url(../images/Path-2836.png);
+    background-size: contain;
     position: relative;
-}
-
-.container-fluid-portfolio .portfolio-bacground{
-    width: 100%;
-    height: 100%; /* ar mewera*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1740px; /* ar mewera*/
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-text{
@@ -245,6 +246,7 @@ html, body{
 .container-fluid-portfolio .portfolio-container ul{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 27px;
     margin-top: 46px;
 }
@@ -279,7 +281,7 @@ html, body{
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-    gap: 160px; /*30*/
+    gap: 150px; /*30*/
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div{
@@ -288,37 +290,36 @@ html, body{
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(1){
-    background-image: url(../images/Mask-Group-8.png);
+    background-image: url(../images/portfolio-1.png);
     height: 400px;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(2){
-    background-image: url(../images/Mask-Group-12.png);
+    background-image: url(../images/portfolio-2.png);
     height: 250px;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(3){
-    background-image: url(../images/Mask-Group-10.png);
+    background-image: url(../images/portfolio-3.png);
     height: 400px;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(4){
-    background-image: url(../images/Mask-Group-9.png);
+    background-image: url(../images/portfolio-4.png);
     height: 250px;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(5){
-    background-image: url(../images/Mask-Group-20.png);
+    background-image: url(../images/portfolio-5.png);
     position: relative;
     top: -150px;
     height: 400px;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(6){
-    background-image: url(../images/Mask-Group-21.png);
+    background-image: url(../images/portfolio-6.png);
     height: 250px;
 }
-
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div img{
     width: 100%;
@@ -329,6 +330,7 @@ html, body{
 .client-comment{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 64px;
 }
 
@@ -361,6 +363,7 @@ html, body{
 .client-comment-container .page{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 22px;
     margin-top: 80px;
     margin-bottom: 90px;
@@ -391,6 +394,7 @@ html, body{
 .footer-fluid-container .comment-buttom-container .container-content{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -415,6 +419,7 @@ html, body{
 .footer-fluid-container .footer .section-1{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     border-bottom: 1px solid rgb(255 255 255 / 95%);
     padding-bottom: 61px;
 }
@@ -469,12 +474,14 @@ html, body{
 
 .footer-fluid-container .footer .section-1 .footer-images{
     display: flex;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
 .footer-fluid-container .footer .section-2{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 48px;
 }
 
@@ -486,7 +493,6 @@ html, body{
 .footer-fluid-container .footer .section-2 .contact img{
     width: 36px; 
 }
-
 
 .footer-fluid-container .footer .section-2 .contact span{
     display: block;   
