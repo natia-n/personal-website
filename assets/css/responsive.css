@@ -3,19 +3,13 @@
         width: 1200px;
     }
 
-    .container-fluid-header{
-        min-height: 844px;
-    }
-
-    .container-fluid-my-story {
-        min-height: 820px;
-    }
-
-    .container-fluid-portfolio {
-        min-height: 1464px;
-    }
-
     .container-fluid-portfolio .portfolio-container .portfolio-images {
         gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .container-content {
+        width: 1024px;
     }
 }

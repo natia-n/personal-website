@@ -18,19 +18,12 @@ html, body{
     box-sizing: border-box;
 }
 
-/*    */
+/* HEADER */
 .container-fluid-header{
     background-image: url(../images/bachround-image-1.png);
-    min-height: 1070px;  /* 900*/
+    min-height: 57vw;  /* 900  -  1070 */
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.container-fluid-header img{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .container-fluid-header .container-title-nav{
@@ -38,8 +31,6 @@ html, body{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 23px;
-    position: relative;
-    z-index: +1;
 }
 
 .container-fluid-header .container-title-nav h2{
@@ -83,9 +74,6 @@ html, body{
 
 .container-fluid-header .title{
     margin-top: 250px; /*15%*/
-    position: relative;
-    z-index: 1;
-    width: 400px;
     float: right;
     margin-right: 289px; /*18%*/
 }
@@ -175,7 +163,7 @@ html, body{
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-    min-height: 1070px; /* 875 */
+    min-height: 57vw; /* 875  - 1070 */
 }
 
 .container-fluid-my-story>img{
@@ -232,7 +220,7 @@ html, body{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 1740px; /* ar mewera*/
+    min-height: 91vw; /* ar mewera  1740px*/
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-text{
@@ -281,7 +269,7 @@ html, body{
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-    gap: 150px; /*30*/
+    gap: 100px; /*30*/
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div{
@@ -527,7 +515,6 @@ html, body{
 /* TITLE */
 .title{
     text-align: center;
-    width: 540px;
     margin: 0 auto;
 }
 
