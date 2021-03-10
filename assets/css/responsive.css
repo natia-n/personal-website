@@ -3,13 +3,39 @@
         width: 1200px;
     }
 
+    .container-fluid-header .container-title-nav .nav-container nav ul {
+        gap: 35px;
+    }
+
+    .container-fluid-header .container-title-nav .nav-container .btn-header {
+        margin-left: 2.1875em;
+    }
+
+    .container-fluid-header .title {
+        margin-top: 7em;
+        margin-right: 9em;
+    }
+    
     .container-fluid-portfolio .portfolio-container .portfolio-images {
         gap: 30px;
-    }
+    }    
 }
 
 @media screen and (max-width: 1200px){
     .container-content {
+        font-size: 0.9em;
         width: 1024px;
+    }
+
+    .my-services-container .my-services-2 {
+        gap: 20px;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div {
+        width: 21em;
+    }
+
+    .client-comment>div {
+        width: 22em;
     }
 }

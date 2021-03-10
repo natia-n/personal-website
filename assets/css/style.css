@@ -35,7 +35,7 @@ html, body{
 
 .container-fluid-header .container-title-nav h2{
     font-family: 'Aller';
-    font-size: 28px;
+    font-size: 1.75em;
     color: #A0D334;
     margin-top: 7px;
 }
@@ -63,29 +63,29 @@ html, body{
     display: inline-block;
     font-family: "Roboto";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 18px 49px;
+    padding: 1.2857em 3.5em;
     border: 1px solid #FFFFFF;
-    margin-left: 150px;
+    margin-left: 10.714em; /*150px*/
     box-sizing: border-box;
 }
 
 .container-fluid-header .title{
-    margin-top: 250px; /*15%*/
+    margin-top: 15.625em; /*15%*/
     float: right;
-    margin-right: 289px; /*18%*/
+    margin-right: 18.0625em; /*18%*/
 }
 
 .container-fluid-header .title span{
-    font-size: 20px;
+    font-size: 1.25em;
     color: #FFFFFF;
 }
 
 .container-fluid-header .title h1{
     font-family: "Roboto";
-    font-size: 60px;
+    font-size: 3.75em;
     margin: 5px 0;
 }
 
@@ -99,7 +99,7 @@ html, body{
 
 /* MY SERVICES */
 .my-services-container{
-    margin-top: 33px;
+    margin-top: 2.0625em;
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;   
@@ -107,21 +107,21 @@ html, body{
 
 .my-services-container .my-services-1{
     display: inline-block;
-    width: 365px;
+    width: 22.8125em;
 }
 
 .my-services-container .my-services-1 h2{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875em;
     color: #4A4A4A;
-    margin-top: 30px;
+    margin-top: 1em;
 }
 
 .my-services-container .my-services-1 p{
     color: #6E6E6E;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 2;
-    margin-top: 21px;
+    margin-top: 1.3125em;
 }
 
 .my-services-container .my-services-2{
@@ -129,15 +129,15 @@ html, body{
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    width: 706px;
-    margin-bottom: 72px;
+    width: 44.125em;
+    margin-bottom: 4.5em;
 }
 
 .my-services-container .my-services-2 div{
     display: inline-block;
-    width: 338px;
+    width: 21.125em;
     box-shadow: 0px 0px 30px rgb(172 172 172 / 16%);
-    padding: 27px;
+    padding: 1.6875em;
     box-sizing: border-box;
 }
 
@@ -145,16 +145,16 @@ html, body{
     display: inline-block;
     color: #4A4A4A;
     font-weight: 400;
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 .my-services-container .my-services-2 p{
     color: #6E6E6E;
-    margin-left: 14px;
+    font-size: 0.875em;
+    margin-left: 1em;
     line-height: 2;
-    margin-top: 16px;
-    margin-left: 60px;
-    font-size: 14px;
+    margin-top: 1.142857em;
+    margin-left: 4.2857em;  
 }
 
 /* MY STORY */
@@ -173,21 +173,21 @@ html, body{
 
 .container-fluid-my-story .my-story{
     position: absolute;
-    left: calc(50% - 106px);
-    top: calc(50% - 88px);
+    left: calc(50% - 6.625em);
+    top: calc(50% - 5.5em);
     text-align: center;
 }
 
 .container-fluid-my-story .my-story img{
-    width: 110px;
+    width: 6.875em;
 }
 
 .container-fluid-my-story .my-story h2{
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875em;
     display: inline-block;
-    margin-top: 36px;
+    margin-top: 1.2em;
 }
 
 /* MY SKILLS */
@@ -195,8 +195,8 @@ html, body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 61px;
-    margin-bottom: 68px;
+    margin-top: 3.8125em;
+    margin-bottom: 4.25em;
 }
 
 .container-fluid-my-skills .about-percent div{
@@ -204,11 +204,11 @@ html, body{
 }
 
 .container-fluid-my-skills .about-percent img{
-    width: 170px;
+    width: 10.625em;
 }
 
 .container-fluid-my-skills .about-percent span{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
     color: #4A4A4A;
 }
@@ -216,7 +216,7 @@ html, body{
 /* MY PORTFOLIO */
 .container-fluid-portfolio{
     background-image: url(../images/Path-2836.png);
-    background-size: contain;
+    background-size: cover;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@ html, body{
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-text{
-    padding-top: 221px;
+    padding-top: 13.8125em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-text p{
@@ -236,13 +236,13 @@ html, body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 27px;
-    margin-top: 46px;
+    margin-top: 2.875em;
 }
 
 .container-fluid-portfolio .portfolio-container ul li a{
     font-family: "Roboto";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1em;
     text-decoration: none;
     color: #4A4A4A;
 }
@@ -264,49 +264,50 @@ html, body{
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images{
-    margin-top: 95px;
-    padding-bottom: 145px;
+    margin-top: 5.9375em;
+    padding-bottom: 9.0625em;
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
-    gap: 100px; /*30*/
+    gap: 6.25em; /*30*/
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div{
-    width: 370px;
-    background-repeat: no-repeat
+    width: 23.125em;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(1){
     background-image: url(../images/portfolio-1.png);
-    height: 400px;
+    height: 25em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(2){
     background-image: url(../images/portfolio-2.png);
-    height: 250px;
+    height: 15.625em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(3){
     background-image: url(../images/portfolio-3.png);
-    height: 400px;
+    height: 25em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(4){
     background-image: url(../images/portfolio-4.png);
-    height: 250px;
+    height: 15.625em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(5){
     background-image: url(../images/portfolio-5.png);
     position: relative;
-    top: -150px;
-    height: 400px;
+    top: -9.375em;
+    height: 25em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(6){
     background-image: url(../images/portfolio-6.png);
-    height: 250px;
+    height: 15.625em;
 }
 
 .container-fluid-portfolio .portfolio-container .portfolio-images div img{
@@ -319,25 +320,25 @@ html, body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 64px;
+    margin-top: 4em;
 }
 
 .client-comment>div{
-    width: 370px;
-    padding: 31px;
+    width: 23.125em;
+    padding: 1.9375em;
     box-sizing: border-box;
-    box-shadow: 0px 0px 30px rgb(172 172 172 / 16%);
+    box-shadow: 0px 0px 1.875em rgb(172 172 172 / 16%);
 }
 
 .client-comment p, span{
-   font-size: 14px;
+   font-size: 0.875em;
    color: #6E6E6E;
-   margin-bottom: 23px;
+   margin-bottom: 1.642857em;
    line-height: 1.5;
 }
 
 .client-comment h3{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 500;
     color: #4A4A4A;
  }
@@ -345,7 +346,7 @@ html, body{
  .client-comment .client{
     display: inline-block;
     vertical-align: middle;
-    margin-left: 17px;
+    margin-left: 1.0625em;
  }
 
 .client-comment-container .page{
@@ -353,15 +354,15 @@ html, body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 22px;
-    margin-top: 80px;
-    margin-bottom: 90px;
+    margin-top: 5em;
+    margin-bottom: 5.625em;
 }
 
 .client-comment-container .page div{
     display: inline-block;
     background-color: rgb(160 211 52 / 15%);
-    width: 36px;
-    height: 4.5px;
+    width: 2.25em;
+    height: 0.28125em;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -383,23 +384,23 @@ html, body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .footer-fluid-container .comment-buttom-container h2{
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
     color: #4A4A4A;
 }
 
 .footer-fluid-container .comment-buttom-container a{
-    padding: 20px 73px 19px 71px;
+    padding: 1.25em 4.5625em 1.1875em 4.4375em;
 }
 
 .footer-fluid-container .footer{
     background-image: url(../images/Rectangle-115.png);
-    padding: 71px 0 48px 0;
+    padding: 4.4375em 0 3em 0;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -409,14 +410,14 @@ html, body{
     justify-content: space-between;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(255 255 255 / 95%);
-    padding-bottom: 61px;
+    padding-bottom: 4em;
 }
 
 .footer-fluid-container .footer .section-1 h2{
     font-family: "Aller";
-    font-size: 28px;
+    font-size: 1.75em;
     color: #A0D334;
-    margin-bottom: 23px;
+    margin-bottom: 0.8214em;
 }
 
 .footer-fluid-container .footer .section-1 span{
@@ -424,7 +425,7 @@ html, body{
 }
 
 .footer-fluid-container .footer .section-1 .footer-input{
-   margin-top: 23px;
+   margin-top: 1.4375em;
 }   
 
 .footer-fluid-container .footer .section-1 .footer-input div{
@@ -436,27 +437,27 @@ html, body{
 }
 
 .footer-fluid-container .footer .section-1 .footer-input div img{
-    height: 29px;
-    padding: 11.5px 22px 11.5px 15px;
+    height: 1.8125em;
+    padding: 0.71875em 1.375em 0.71875em 0.9375em;
 } 
 
 .footer-fluid-container .footer .section-1 input{
     font-family: 'Roboto';
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #AFAFAF;
-    padding: 16px 140px 15px 22px;
+    padding: 1.142857em 10em 1.07142857em 1.57142em;
 }
 
 .footer-fluid-container .footer .section-1 h3{
-    font-size: 21px;    
-    margin-bottom: 28px;
+    font-size: 1.3125em;    
+    margin-bottom: 1.3333em;
 }
 
 .footer-fluid-container .footer .section-1 ul li a{
     text-decoration: none; 
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 2;
 }
 
@@ -479,16 +480,16 @@ html, body{
 }
 
 .footer-fluid-container .footer .section-2 .contact img{
-    width: 36px; 
+    width: 2.25em; 
 }
 
 .footer-fluid-container .footer .section-2 .contact span{
     display: block;   
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 0.875em;
     font-family: 'Roboto';
     font-weight: normal;
-    margin: 0 0 0 13px;
+    margin: 0 0 0 0.92857em;
 }
 
 /* BUTTON*/
@@ -496,7 +497,7 @@ html, body{
     display: inline-block;
     font-family: "Roboto";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.875em;
     color: #FFFFFF;
     text-decoration: none;
     box-sizing: border-box;
@@ -504,12 +505,12 @@ html, body{
 }
 
 .btn-title{ 
-    padding: 18px 51px 18px 49px;
+    padding: 1.28571em 3.642857em 1.28571em 3.5em;
 }
 
 .btn-my-services{
-    padding: 18px 60px 18px 61px;
-    margin-top: 49px;
+    padding: 1.28571em 4.25871em 1.28571em 4.3571em;
+    margin-top: 3.5em;
 }
 
 /* TITLE */
@@ -519,14 +520,14 @@ html, body{
 }
 
 .title h2{
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
-    margin-bottom: 19px;
+    margin-bottom: 0.6333em;
     color: #4A4A4A;
 }
 
 .title p{
-    font-size: 14px;
+    font-size: 0.875em;
     color: #4A4A4A;
     line-height: 2;
 }
