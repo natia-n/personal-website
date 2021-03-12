@@ -1,6 +1,6 @@
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1600px){
     .container-content {
-        width: 1200px;
+        width: 1300px;
     }
 
     .container-fluid-header .container-title-nav .nav-container nav ul {
@@ -21,10 +21,12 @@
     }    
 }
 
-@media screen and (max-width: 1200px){
+
+
+@media screen and (max-width: 1400px){
     .container-content {
         font-size: 0.9em;
-        width: 1024px;
+        width: 1100px;
     }
 
     .my-services-container .my-services-2 {
@@ -37,5 +39,259 @@
 
     .client-comment>div {
         width: 22em;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .container-content {
+        font-size: 0.8em;
+        width: 900px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .container-content {
+        width: 700px;
+    }
+
+    .container-title-nav .burger-manu{
+        display: inline-grid;
+    }
+
+    .container-title-nav .nav-container{
+        display: none;
+    }
+
+    .container-fluid-header .title-header {
+        font-size: 0.7em;
+    }
+
+    .my-services-container .my-services-1 {
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+
+    .my-services-container .my-services-1 a{
+       margin-top: 1em;       
+    }
+
+    .my-services-container .my-services-2 {
+        margin: 0 auto;
+    }
+
+    .container-fluid-my-skills .about-percent {
+        font-size: 0.7em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(5) {
+        position: static;
+    }
+
+    .client-comment {
+        gap: 30px;
+    }
+
+    .footer-fluid-container .comment-buttom-container h2 {
+        font-size: 1.5em;
+    }
+
+    .container-fluid-my-story .my-story img {
+        width: 5em;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    .container-content {
+        width: 500px;
+    }
+
+    .container-fluid-header .title-header {
+        font-size: 0.6em;
+        margin-top: 5em;
+    }
+
+    .btn {
+        font-size: 0.7em;
+    }
+
+    .container-fluid-header .title h1 {
+        font-size: 2.5em;
+    }
+
+    label {
+        width: 40px;
+    }
+
+    label span {
+        height: 5px;
+        margin: 3px 0;
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+        transform: rotatez(45deg) translate(5px,0px);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+        transform: translate(19px,-4px) rotatez(45deg);
+    }
+
+    .my-services-container .my-services-2 {
+        justify-content: center;
+    }
+
+    .container-fluid-my-skills .about-percent {
+        font-size: 0.5em;
+    }
+
+    .container-fluid-my-skills .about-percent span {
+        font-size: 1.5em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images {
+        margin-top: 3em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div {
+        height: 20em;
+        width: 17em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(1) {
+        background-image: url(../images/portfolio-1.png);
+        height: 19em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(3) {
+        background-image: url(../images/portfolio-3.png);
+        height: 19em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(5) {
+        height: 19em;
+    }
+
+    .container-percent .wrewiri span {
+        top: 2.8em;
+        left: 1.7em;
+    }
+
+    .client-comment {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-fluid-container .comment-buttom-container a {
+        margin-top: 1em;
+    }
+
+    .footer-fluid-container .footer {
+        padding: 2em 0 2em 0;
+    }
+
+    .footer-fluid-container .footer .section-1 {
+        display: block;
+        padding-bottom: 2em;
+    }
+
+    .footer-fluid-container .footer .section-1 .footer-services {
+        display: inline-block;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .footer-fluid-container .footer .section-1 .footer-support {
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .footer-fluid-container .footer .section-1 h3 {
+        margin-bottom: 1em;
+    }
+
+    .footer-fluid-container .footer .section-2 {
+        gap: 25px;
+    }
+
+    .container-fluid-my-story .my-story {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container-content {
+        width: 500px;
+    }
+
+    .container-fluid-my-story .my-story {
+        font-size: 0.6em;
+    }
+}    
+
+@media screen and (max-width: 500px){
+    .container-content {
+        width: 470px;
+    }
+
+    .container-fluid-header .title-header {
+        margin-top: 2em;
+    }
+
+    .container-fluid-header .title .title-btn-container {
+        margin-top: 1em;
+    }
+
+    label {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .container-fluid-my-skills .about-percent {
+        font-size: 0.4em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div {
+        height: 16em;
+        width: 15em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(1) {
+        height: 16em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(3) {
+        height: 16em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(5) {
+        height: 16em;
+    }
+
+    .client-comment-container .page {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .footer-fluid-container .footer {
+        text-align: center;
+    }
+
+    .footer-fluid-container .footer .section-1 .footer-support {
+        margin-left: 60px;
+    }
+
+    .footer-fluid-container .footer .section-1 .footer-images {
+        display: inline-flex;
+    }
+} 
+
+@media screen and (max-width: 470px){
+    .container-content {
+        width: 100%;
     }
 }

@@ -94,7 +94,7 @@ html, body{
 }
 
 .container-fluid-header .title .title-btn-container{
-    margin-top: 59px;
+    margin-top: 3.6875em;
 }
 
 /* MY SERVICES */
@@ -194,7 +194,7 @@ html, body{
 .container-fluid-my-skills .about-percent{   
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 30px;
     margin-top: 3.8125em;
     margin-bottom: 4.25em;
 }
@@ -203,9 +203,9 @@ html, body{
     text-align: center;
 }
 
-.container-fluid-my-skills .about-percent img{
+/* .container-fluid-my-skills .about-percent img{
     width: 10.625em;
-}
+} */
 
 .container-fluid-my-skills .about-percent span{
     font-size: 1em;
