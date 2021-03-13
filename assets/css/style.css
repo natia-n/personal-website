@@ -215,15 +215,22 @@ html, body{
 
 /* MY PORTFOLIO */
 .container-fluid-portfolio{
-    background-image: url(../images/Path-2836.png);
-    background-size: cover;
     position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 91vw; /* ar mewera  1740px*/
+    overflow: hidden;
 }
 
-.container-fluid-portfolio .portfolio-container .portfolio-text{
+.container-fluid-portfolio .background-color{
+    width: 200%;
+    height: 84%;
+    position: absolute;
+    top: 8%;
+    left: -50%;
+    z-index: -1;
+    background-color: rgb(250 250 250);
+    transform: rotate(-9deg);
+}
+
+.container-fluid-portfolio .portfolio-container{
     padding-top: 13.8125em;
 }
 
@@ -331,11 +338,15 @@ html, body{
 }
 
 .client-comment p, span{
-   font-size: 0.875em;
-   color: #6E6E6E;
-   /* margin-bottom: 1.642857em; */
-   /* line-height: 1.5; */
+    font-size: 0.875em;
+    color: #6E6E6E;
+    line-height: 1.5;
 }
+
+.client-comment p{
+    margin-bottom: 23px;
+}
+
 
 .client-comment h3{
     font-size: 1em;

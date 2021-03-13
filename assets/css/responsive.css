@@ -70,6 +70,15 @@
         font-size: 0.7em;
     }
 
+    .container-fluid-portfolio .background-color {
+        height: 88%;
+        top: 5%;
+    }
+
+    .container-fluid-portfolio .portfolio-container {
+        padding-top: 11em;
+    }
+
     .my-services-container .my-services-1 {
         margin: 0 auto;
         margin-bottom: 3em;
@@ -126,7 +135,7 @@
         font-size: 2.5em;
     }
 
-    label {
+    /* label {
         width: 40px;
     }
 
@@ -141,7 +150,7 @@
 
     input[type="checkbox"]:checked ~ span:nth-of-type(3) {
         transform: translate(19px,-4px) rotatez(45deg);
-    }
+    } */
 
     .my-services-container .my-services-2 {
         justify-content: center;
@@ -248,8 +257,19 @@
     }
 
     label {
-        width: 40px;
-        margin-right: 15px;
+        width: 26px;
+    }
+
+    label span {
+        margin: 2px 0;
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+        transform: rotatez(45deg) translate(4px,0px);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+        transform: translate(12px,-4px) rotatez(45deg);
     }
 
     .container-fluid-my-skills .about-percent {
@@ -257,7 +277,7 @@
         flex-wrap: wrap;
     }
 
-    .container-fluid-portfolio .portfolio-container .portfolio-text {
+    .container-fluid-portfolio .portfolio-container {
         padding-top: 9em;
     }
 
@@ -306,30 +326,26 @@
         margin-top: 0;
     }
 
-    label {
-        width: 30px;
-    }
-
-    label span {
-        height: 3px;
-        margin: 2px 0;
-    }
-
-    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
-        transform: translate(14px,-2px) rotatez(45deg);
-    }
-
-    input[type="checkbox"]:checked ~ span:nth-of-type(1) {transform: rotatez(45deg) translate(3px,-1px);
-    }
-
     .container-fluid-header .title-header {
         margin-right: 20px;
-        margin-top: 7px;
+        margin-top: 15px;
         font-size: 0.5em;
     }
 
     .container-fluid-header .title h1 {
         font-size: 2em;
+    }
+
+    label {
+        width: 20px;
+    }
+
+    label span {
+        height: 3px;
+    }
+    
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+        transform: translate(9px,-4px) rotatez(45deg);            
     }
 
     .container-fluid-my-skills .title h2 {
@@ -375,8 +391,13 @@
         height: 10em;
     }
 
-    .container-fluid-portfolio .portfolio-container .portfolio-text {
-        padding-top: 11em;
+    .container-fluid-portfolio .portfolio-container {
+        padding-top: 4em;
+    }
+
+    .container-fluid-portfolio .background-color {
+        height: 92%;
+        top: 2%;
     }
 
     .client-comment-container h2{
@@ -386,5 +407,9 @@
     .footer-fluid-container .footer .section-1 input {
         padding: 1.142857em 7em 1.07142857em 1.57142em;
     }
-   
+
+    .footer-fluid-container .comment-buttom-container .container-content {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }   
 }
