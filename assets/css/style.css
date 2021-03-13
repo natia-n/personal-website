@@ -333,8 +333,8 @@ html, body{
 .client-comment p, span{
    font-size: 0.875em;
    color: #6E6E6E;
-   margin-bottom: 1.642857em;
-   line-height: 1.5;
+   /* margin-bottom: 1.642857em; */
+   /* line-height: 1.5; */
 }
 
 .client-comment h3{

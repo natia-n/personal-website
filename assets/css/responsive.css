@@ -73,6 +73,8 @@
     .my-services-container .my-services-1 {
         margin: 0 auto;
         margin-bottom: 3em;
+        text-align: center;
+        width: 100%;
     }
 
     .my-services-container .my-services-1 a{
@@ -176,11 +178,6 @@
         height: 19em;
     }
 
-    .container-percent .wrewiri span {
-        top: 2.8em;
-        left: 1.7em;
-    }
-
     .client-comment {
         justify-content: center;
         gap: 20px;
@@ -223,6 +220,8 @@
     }
 }
 
+
+
 @media screen and (max-width: 600px){
     .container-content {
         width: 500px;
@@ -231,7 +230,9 @@
     .container-fluid-my-story .my-story {
         font-size: 0.6em;
     }
-}    
+}  
+
+
 
 @media screen and (max-width: 500px){
     .container-content {
@@ -252,7 +253,12 @@
     }
 
     .container-fluid-my-skills .about-percent {
-        font-size: 0.4em;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-text {
+        padding-top: 9em;
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div {
@@ -294,4 +300,91 @@
     .container-content {
         width: 100%;
     }
+
+    .container-fluid-header .container-title-nav h2{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    label {
+        width: 30px;
+    }
+
+    label span {
+        height: 3px;
+        margin: 2px 0;
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+        transform: translate(14px,-2px) rotatez(45deg);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(1) {transform: rotatez(45deg) translate(3px,-1px);
+    }
+
+    .container-fluid-header .title-header {
+        margin-right: 20px;
+        margin-top: 7px;
+        font-size: 0.5em;
+    }
+
+    .container-fluid-header .title h1 {
+        font-size: 2em;
+    }
+
+    .container-fluid-my-skills .title h2 {
+        font-size: 1.5em;
+    }
+
+    .my-services-container .my-services-1 {
+        font-size: 0.8em;
+    }
+
+    .container-fluid-my-skills .about-percent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-fluid-portfolio .portfolio-container h2 {
+        font-size: 1.5em;
+    }
+
+    .container-fluid-portfolio .portfolio-container ul {
+        gap: 15px;
+        margin-top: 1.5em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images {
+        margin-top: 2em;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(2) {
+        background-image: url(../images/portfolio-2.png);
+        height: 10em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(4) {
+        background-image: url(../images/portfolio-4.png);
+        height: 10em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(6) {
+        background-image: url(../images/portfolio-6.png);
+        height: 10em;
+    }
+
+    .container-fluid-portfolio .portfolio-container .portfolio-text {
+        padding-top: 11em;
+    }
+
+    .client-comment-container h2{
+        font-size: 1.5em;
+    }
+
+    .footer-fluid-container .footer .section-1 input {
+        padding: 1.142857em 7em 1.07142857em 1.57142em;
+    }
+   
 }
