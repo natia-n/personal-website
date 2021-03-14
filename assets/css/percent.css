@@ -1,4 +1,4 @@
-.container-percent .wrewiri .box-1 {
+.container-percent .precent-box-shadow .box-1 {
     --p:75;
     --v:calc( ((18/5) * var(--p) - 90)*1deg);
 
@@ -16,7 +16,7 @@
         linear-gradient(to right, #f2f2f2 50%,#F5317F 0);
 }
 
-.container-percent .wrewiri .box-2 {
+.container-percent .precent-box-shadow .box-2 {
     --p:70;
     --v:calc( ((18/5) * var(--p) - 90)*1deg);
   
@@ -34,7 +34,7 @@
         linear-gradient(to right, #f2f2f2 50%,#B122E5 0);
 }
 
-.container-percent .wrewiri .box-3 {
+.container-percent .precent-box-shadow .box-3 {
     --p:95;
     --v:calc( ((18/5) * var(--p) - 90)*1deg);
   
@@ -52,7 +52,7 @@
         linear-gradient(to right, #f2f2f2 50%,#1270E3 0);
 }
 
-.container-percent .wrewiri .box-4 {
+.container-percent .precent-box-shadow .box-4 {
     --p:60;
     --v:calc( ((18/5) * var(--p) - 90)*1deg);
   
@@ -70,7 +70,7 @@
         linear-gradient(to right, #f2f2f2 50%,#2CBFC7 0);
 }
 
-.container-percent .wrewiri .box-5 {
+.container-percent .precent-box-shadow .box-5 {
     --p:85;
     --v:calc( ((18/5) * var(--p) - 90)*1deg);
   
@@ -94,7 +94,7 @@
     border-radius: 50%;
 }
 
-.container-percent .wrewiri{
+.container-percent .precent-box-shadow{
     width: 9.375em;
     height: 9.375em;
     border: 0.625em solid #FFFFFF;
@@ -102,12 +102,9 @@
     box-shadow: 0px 0px 20px rgb(170 170 170 / 16%);
 }
 
-.container-percent .wrewiri span{
+.container-percent .precent-box-shadow span{
     font-size: 2.125em;
     font-family: "Nexa";
     font-weight: bold;
     color: #5D5D5D;
-    /* position: absolute;
-    top: 1.8em;
-    left: 1.3em;    */
 }
