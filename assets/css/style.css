@@ -100,6 +100,7 @@ html, body{
 /* MY SERVICES */
 .my-services-container{
     margin-top: 2.0625em;
+    margin-bottom: 1em;
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;   
@@ -139,6 +140,10 @@ html, body{
     box-shadow: 0px 0px 30px rgb(172 172 172 / 16%);
     padding: 1.6875em;
     box-sizing: border-box;
+}
+
+.my-services-container .my-services-2 img{
+    width: 2.1875em;
 }
 
 .my-services-container .my-services-2 h2{
@@ -203,10 +208,6 @@ html, body{
     text-align: center;
 }
 
-/* .container-fluid-my-skills .about-percent img{
-    width: 10.625em;
-} */
-
 .container-fluid-my-skills .about-percent span{
     font-size: 1em;
     font-weight: 500;
@@ -220,8 +221,8 @@ html, body{
 }
 
 .container-fluid-portfolio .background-color{
-    width: 200%;
-    height: 84%;
+    width: 220%;
+    height: 80%;
     position: absolute;
     top: 8%;
     left: -50%;
@@ -347,18 +348,21 @@ html, body{
     margin-bottom: 23px;
 }
 
-
 .client-comment h3{
     font-size: 1em;
     font-weight: 500;
     color: #4A4A4A;
- }
+}
 
- .client-comment .client{
+.client-comment img{
+    width: 3.5em;
+}
+
+.client-comment .client{
     display: inline-block;
     vertical-align: middle;
     margin-left: 1.0625em;
- }
+}
 
 .client-comment-container .page{
     display: flex;
@@ -420,6 +424,7 @@ html, body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 3em;
     border-bottom: 1px solid rgb(255 255 255 / 95%);
     padding-bottom: 4em;
 }
@@ -478,6 +483,10 @@ html, body{
     gap: 36px;
 }
 
+.footer-fluid-container .footer .section-1 .footer-images img{
+    width: 0.92857em;
+}
+
 .footer-fluid-container .footer .section-2{
     display: flex;
     justify-content: space-between;
@@ -490,7 +499,7 @@ html, body{
     vertical-align: middle; 
 }
 
-.footer-fluid-container .footer .section-2 .contact img{
+.footer-fluid-container .footer .section-2 img{
     width: 2.25em; 
 }
 

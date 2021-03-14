@@ -22,7 +22,6 @@
 }
 
 
-
 @media screen and (max-width: 1400px){
     .container-content {
         font-size: 0.9em;
@@ -43,14 +42,12 @@
 }
 
 
-
 @media screen and (max-width: 1200px){
     .container-content {
         font-size: 0.8em;
         width: 900px;
     }
 }
-
 
 
 @media screen and (max-width: 1000px){
@@ -116,7 +113,6 @@
 }
 
 
-
 @media screen and (max-width: 800px){
     .container-content {
         width: 500px;
@@ -135,25 +131,13 @@
         font-size: 2.5em;
     }
 
-    /* label {
-        width: 40px;
-    }
-
-    label span {
-        height: 5px;
-        margin: 3px 0;
-    }
-
-    input[type="checkbox"]:checked ~ span:nth-of-type(1) {
-        transform: rotatez(45deg) translate(5px,0px);
-    }
-
-    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
-        transform: translate(19px,-4px) rotatez(45deg);
-    } */
-
     .my-services-container .my-services-2 {
         justify-content: center;
+    }
+
+    .my-services-container .my-services-2 div {
+        width: 17em;
+        padding: 1em;
     }
 
     .container-fluid-my-skills .about-percent {
@@ -174,12 +158,10 @@
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(1) {
-        background-image: url(../images/portfolio-1.png);
         height: 19em;
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(3) {
-        background-image: url(../images/portfolio-3.png);
         height: 19em;
     }
 
@@ -230,7 +212,6 @@
 }
 
 
-
 @media screen and (max-width: 600px){
     .container-content {
         width: 500px;
@@ -240,7 +221,6 @@
         font-size: 0.6em;
     }
 }  
-
 
 
 @media screen and (max-width: 500px){
@@ -272,8 +252,12 @@
         transform: translate(12px,-4px) rotatez(45deg);
     }
 
+    .my-services-container .my-services-2 div {
+        width: 20em;
+    }
+
     .container-fluid-my-skills .about-percent {
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -314,7 +298,17 @@
     .footer-fluid-container .footer .section-1 .footer-images {
         display: inline-flex;
     }
+
+    .footer-fluid-container .footer .section-1 input {
+        padding: 0.8em 7em 0.8em 0.8em;
+    }
+
+    .footer-fluid-container .footer .section-1 .footer-input div img {
+        height: 1.3em;
+        padding: 0.7em 1.2em 0.77em 0.9em;
+    }
 } 
+
 
 @media screen and (max-width: 470px){
     .container-content {
@@ -356,11 +350,6 @@
         font-size: 0.8em;
     }
 
-    .container-fluid-my-skills .about-percent {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .container-fluid-portfolio .portfolio-container h2 {
         font-size: 1.5em;
     }
@@ -377,17 +366,14 @@
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(2) {
-        background-image: url(../images/portfolio-2.png);
         height: 10em;
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(4) {
-        background-image: url(../images/portfolio-4.png);
         height: 10em;
     }
 
     .container-fluid-portfolio .portfolio-container .portfolio-images div:nth-child(6) {
-        background-image: url(../images/portfolio-6.png);
         height: 10em;
     }
 
@@ -396,16 +382,13 @@
     }
 
     .container-fluid-portfolio .background-color {
-        height: 92%;
-        top: 2%;
+        height: 91%;
+        top: 1%;
+        width: 288%;
     }
 
     .client-comment-container h2{
         font-size: 1.5em;
-    }
-
-    .footer-fluid-container .footer .section-1 input {
-        padding: 1.142857em 7em 1.07142857em 1.57142em;
     }
 
     .footer-fluid-container .comment-buttom-container .container-content {
