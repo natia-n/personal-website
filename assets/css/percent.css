@@ -1,7 +1,13 @@
-.container-percent .precent-box-shadow .box-1 {
-    --p:75;
-    --v:calc( ((18/5) * var(--p) - 90)*1deg);
+.container-percent .precent-box-shadow{
+    --p1:75;
+    --p2:70;
+    --p3:95;
+    --p4:60;
+    --p5:85;
+}
 
+.container-percent .precent-box-shadow .box-1 {
+    --v:calc( ((18/5) * var(--p1) - 90)*1deg);
     width:8.125em;
     height:8.125em;
     display: flex;
@@ -11,15 +17,13 @@
     padding:0.625em;
     background:
         linear-gradient(#FFFFFF,#FFFFFF) content-box,
-        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
-        linear-gradient(var(--v), transparent 50%,#F5317F 0) 0/min(100%,(var(--p) - 50)*100%),
+        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p1))*100%),
+        linear-gradient(var(--v), transparent 50%,#F5317F 0) 0/min(100%,(var(--p1) - 50)*100%),
         linear-gradient(to right, #f2f2f2 50%,#F5317F 0);
 }
 
-.container-percent .precent-box-shadow .box-2 {
-    --p:70;
-    --v:calc( ((18/5) * var(--p) - 90)*1deg);
-  
+.container-percent .precent-box-shadow .box-2 {   
+    --v:calc( ((18/5) * var(--p2) - 90)*1deg);  
     width:8.125em;
     height:8.125em;
     display: flex;
@@ -29,15 +33,13 @@
     padding:0.625em;
     background:
         linear-gradient(#FFFFFF,#FFFFFF) content-box,
-        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
-        linear-gradient(var(--v), transparent 50%,#B122E5 0) 0/min(100%,(var(--p) - 50)*100%),
+        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p2))*100%),
+        linear-gradient(var(--v), transparent 50%,#B122E5 0) 0/min(100%,(var(--p2) - 50)*100%),
         linear-gradient(to right, #f2f2f2 50%,#B122E5 0);
 }
 
-.container-percent .precent-box-shadow .box-3 {
-    --p:95;
-    --v:calc( ((18/5) * var(--p) - 90)*1deg);
-  
+.container-percent .precent-box-shadow .box-3 {   
+    --v:calc( ((18/5) * var(--p3) - 90)*1deg);  
     width:8.125em;
     height:8.125em;
     display: flex;
@@ -47,15 +49,13 @@
     padding:0.625em;
     background:
         linear-gradient(#FFFFFF,#FFFFFF) content-box,
-        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
-        linear-gradient(var(--v), transparent 50%,#1270E3 0) 0/min(100%,(var(--p) - 50)*100%),
+        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p3))*100%),
+        linear-gradient(var(--v), transparent 50%,#1270E3 0) 0/min(100%,(var(--p3) - 50)*100%),
         linear-gradient(to right, #f2f2f2 50%,#1270E3 0);
 }
 
-.container-percent .precent-box-shadow .box-4 {
-    --p:60;
-    --v:calc( ((18/5) * var(--p) - 90)*1deg);
-  
+.container-percent .precent-box-shadow .box-4 {    
+    --v:calc( ((18/5) * var(--p4) - 90)*1deg);  
     width:8.125em;
     height:8.125em;
     display: flex;
@@ -65,15 +65,13 @@
     padding:0.625em;
     background:
         linear-gradient(#FFFFFF,#FFFFFF) content-box,
-        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
-        linear-gradient(var(--v), transparent 50%,#2CBFC7 0) 0/min(100%,(var(--p) - 50)*100%),
+        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p4))*100%),
+        linear-gradient(var(--v), transparent 50%,#2CBFC7 0) 0/min(100%,(var(--p4) - 50)*100%),
         linear-gradient(to right, #f2f2f2 50%,#2CBFC7 0);
 }
 
-.container-percent .precent-box-shadow .box-5 {
-    --p:85;
-    --v:calc( ((18/5) * var(--p) - 90)*1deg);
-  
+.container-percent .precent-box-shadow .box-5 { 
+    --v:calc( ((18/5) * var(--p5) - 90)*1deg);  
     width:8.125em;
     height:8.125em;
     display: flex;
@@ -83,18 +81,18 @@
     padding:0.625em;
     background:
         linear-gradient(#FFFFFF,#FFFFFF) content-box,
-        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p))*100%),
-        linear-gradient(var(--v), transparent 50%,#FF8359 0) 0/min(100%,(var(--p) - 50)*100%),
+        linear-gradient(var(--v), #f2f2f2 50%,transparent 0) 0/min(100%,(50 - var(--p5))*100%),
+        linear-gradient(var(--v), transparent 50%,#FF8359 0) 0/min(100%,(var(--p5) - 50)*100%),
         linear-gradient(to right, #f2f2f2 50%,#FF8359 0);
 }
 
 .container-percent {
     display: inline-block;
-    position: relative;
     border-radius: 50%;
 }
 
 .container-percent .precent-box-shadow{
+    position: relative;
     width: 9.375em;
     height: 9.375em;
     border: 0.625em solid #FFFFFF;
@@ -107,4 +105,66 @@
     font-family: "Nexa";
     font-weight: bold;
     color: #5D5D5D;
+}
+
+.container-percent .precent-box-shadow .border-rounding{
+    position: absolute;
+    width: 0.625em;
+    height: 0.625em;
+    border-radius: 50%;
+}
+
+.container-percent .precent-box-shadow .start{
+    left: calc(50% - 0.3125em);
+    top: 0;
+}
+
+.container-percent .precent-box-shadow .xd{
+    background-color: #f5317f;
+}
+
+.container-percent .precent-box-shadow .illustrator{
+    background-color: #B122E5;
+}
+
+.container-percent .precent-box-shadow .photoshop{
+    background-color: #1270E3;
+}
+
+.container-percent .precent-box-shadow .indesign{
+    background-color: #2CBFC7;
+}
+
+.container-percent .precent-box-shadow .effects{
+    background-color: #FF8359;
+}
+
+.container-percent .precent-box-shadow .xd.final{
+    left: calc(50% - 0.3125em);
+    top: calc(50% - 0.3125em);
+    transform: rotate(calc(-90deg + (360deg * var(--p1) / 100))) translate(4.375em);
+}
+
+.container-percent .precent-box-shadow .illustrator.final{
+    left: calc(50% - 0.3125em);
+    top: calc(50% - 0.3125em);
+    transform: rotate(calc(-90deg + (360deg * var(--p2) / 100))) translate(4.375em);
+}
+
+.container-percent .precent-box-shadow .photoshop.final{
+    left: calc(50% - 0.3125em);
+    top: calc(50% - 0.3125em);
+    transform: rotate(calc(-90deg + (360deg * var(--p3) / 100))) translate(4.375em);
+}
+
+.container-percent .precent-box-shadow .indesign.final{
+    left: calc(50% - 0.3125em);
+    top: calc(50% - 0.3125em);
+    transform: rotate(calc(-90deg + (360deg * var(--p4) / 100))) translate(4.375em);
+}
+
+.container-percent .precent-box-shadow .effects.final{
+    left: calc(50% - 0.3125em);
+    top: calc(50% - 0.3125em);
+    transform: rotate(calc(-90deg + (360deg * var(--p5) / 100))) translate(4.375em);
 }
