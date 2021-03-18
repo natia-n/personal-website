@@ -3,11 +3,7 @@ html, body{
     font-family: 'Roboto';
     font-weight: normal; /* Regular-400 */
     color: #FFFFFF;
-}
-
-.container-fluid{
     position: relative;
-    width: 100%;
     margin: 0 auto;
 }
 
